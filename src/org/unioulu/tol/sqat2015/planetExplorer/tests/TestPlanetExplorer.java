@@ -56,7 +56,7 @@ public class TestPlanetExplorer {
 	public void testIfFacingWestCommandLeftChangeItSouth(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0,"West");
 		
-		planetExplorer.executeCommand("l");
+		planetExplorer.executeCommand("ll");
 
 		
 		assertEquals("South",planetExplorer.getFacing());

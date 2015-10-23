@@ -160,3 +160,4 @@ RefactoringAction 1445594604947 PlanetExplorer.java REMOVE x FIELD
 RefactoringAction 1445594604948 PlanetExplorer.java REMOVE y FIELD
 RefactoringAction 1445594604949 PlanetExplorer.java REMOVE String FIELD
 EditAction 1445594636431 PlanetExplorer.java 1893 3 5 0
+EditAction 1445594636518 TestPlanetExplorer.java 1467 5 15 5
