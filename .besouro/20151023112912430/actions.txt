@@ -44,3 +44,4 @@ RefactoringAction 1445591877972 PlanetExplorer.java RENAME get()=>Object getFaci
 RefactoringAction 1445591878986 PlanetExplorer.java RENAME getFaci()=>Object getFacing() METHOD
 RefactoringAction 1445591905062 PlanetExplorer.java ADD string facing FIELD
 EditAction 1445591957935 PlanetExplorer.java 1526 4 3 0
+EditAction 1445591958241 TestPlanetExplorer.java 482 1 3 1
