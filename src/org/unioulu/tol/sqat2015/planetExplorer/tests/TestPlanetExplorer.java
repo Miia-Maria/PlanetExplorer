@@ -16,7 +16,7 @@ public class TestPlanetExplorer {
 		planetExplorer.executeCommand("l");
 
 		
-		assertEquals("West",planetExplorer.getFacing());
+		assertEquals("(0, 0), North",planetExplorer.executeCommand(""));
 		
 	}
 	

@@ -5,6 +5,7 @@
 1445594769745 test-first 3 856 true
 1445595121069 production 1 351 true
 1445595343551 test-last 1 222 false
-1445595363120 test-addition 1 19 false
-1445595494955 refactoring 3 131 false
-1445595670591 refactoring 3 175 false
+1445595363120 test-addition 1 19 true
+1445595494955 refactoring 3 131 true
+1445595670591 refactoring 3 175 true
+1445595994491 test-first 4 323 true
