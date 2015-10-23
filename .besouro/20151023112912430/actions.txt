@@ -211,3 +211,15 @@ RefactoringAction 1445595604915 TestPlanetExplorer.java RENAME testIfFacingNorth
 RefactoringAction 1445595607430 TestPlanetExplorer.java RENAME testIfFacingNorthCommandBacwardReminesNorthAndXchanges()=>void testIfFacingNorthCommandBacwardReminesNorthAndXChanges() METHOD
 EditAction 1445595670196 PlanetExplorer.java 2027 4 6 0
 EditAction 1445595670302 TestPlanetExplorer.java 1333 4 14 6
+UnitTestCaseAction 1445595670590 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595670591 TestPlanetExplorer OK
+RefactoringAction 1445595801197 TestPlanetExplorer.java ADD void testTheCommandSeemsRight() METHOD
+RefactoringAction 1445595867918 TestPlanetExplorer.java REMOVE testTheCommandSeemsRight() METHOD
+RefactoringAction 1445595912144 PlanetExplorer.java RENAME x=>int pos_x FIELD
+RefactoringAction 1445595916158 PlanetExplorer.java RENAME y=>int pos_y FIELD
+RefactoringAction 1445595951301 PlanetExplorer.java RENAME getX()=>Object getPos_X() METHOD
+RefactoringAction 1445595979188 TestPlanetExplorer.java RENAME testIfFacingNorthCommandForwardReminesNorthAndXChanges()=>void testIfFacingNorthCommandForwardReminesNorthAndChanges() METHOD
+RefactoringAction 1445595982703 TestPlanetExplorer.java RENAME testIfFacingNorthCommandForwardReminesNorthAndChanges()=>void testIfFacingNorthCommandForwardReminesNorthAndXPositionmChanges() METHOD
+RefactoringAction 1445595984217 TestPlanetExplorer.java RENAME testIfFacingNorthCommandForwardReminesNorthAndXPositionmChanges()=>void testIfFacingNorthCommandForwardReminesNorthAndXPositionChanges() METHOD
+RefactoringAction 1445595989731 TestPlanetExplorer.java RENAME testIfFacingNorthCommandBacwardReminesNorthAndXChanges()=>void testIfFacingNorthCommandBacwardReminesNorthAndXPositionChanges() METHOD
+EditAction 1445595994074 PlanetExplorer.java 1976 4 5 0

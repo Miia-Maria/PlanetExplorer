@@ -8,8 +8,8 @@ public class PlanetExplorer {
 	
 	String facing;
 	String command;
-	int x = 0;
-	int y = 0;
+	int pos_x = 0;
+	int pos_y = 0;
 	
 
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -33,17 +33,13 @@ public class PlanetExplorer {
 				facing = "East";
 				} else if(facing == "North" && command == "f"){
 					facing = "North";
-					x++;
+					pos_x++;
 					} else if(facing == "North" && command == "b"){
 						facing = "North";
-						x--;
-						} if (facing == "North" && command == "ll"){
-							facing = "South";
-						}
-
+						pos_x--;
+						} 
 		
-		
-		return "(" + x + ", " + y + ", " + facing + ")";
+		return "(" + pos_x + ", " + pos_y + ", " + facing + ")";
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -65,8 +61,8 @@ public class PlanetExplorer {
 		
 	}
 
-	public Object getX() {
-		return this.x;
+	public Object getPos_X() {
+		return this.pos_x;
 	}
 
 }
