@@ -13,7 +13,7 @@ public class TestPlanetExplorer {
 		//arrange
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0, "North");
 		//act
-		planetExplorer.facing(); 
+ 
 		//assert
 		assertEquals("North", planetExplorer.getFacing());
 	}
