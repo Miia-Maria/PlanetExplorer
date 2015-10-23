@@ -27,7 +27,7 @@ public class TestPlanetExplorer {
 		planetExplorer.executeCommand("r");
 
 		
-		assertEquals("East",planetExplorer.getFacing());
+		assertEquals("(0, 0), East",planetExplorer.executeCommand(""));
 		
 	}
 	
@@ -38,8 +38,7 @@ public class TestPlanetExplorer {
 		planetExplorer.executeCommand("f");
 
 		
-		assertEquals("North",planetExplorer.getFacing());
-		assertEquals(1,planetExplorer.getPos_X());
+		assertEquals("(1, 0), North",planetExplorer.executeCommand(""));
 		
 	}
 	
@@ -50,8 +49,7 @@ public class TestPlanetExplorer {
 		planetExplorer.executeCommand("b");
 
 		
-		assertEquals("North",planetExplorer.getFacing());
-		assertEquals(-1,planetExplorer.getPos_X());
+		assertEquals("(-1, 0), North",planetExplorer.executeCommand(""));
 		
 	}
 	
