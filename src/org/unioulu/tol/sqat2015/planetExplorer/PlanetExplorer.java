@@ -37,6 +37,7 @@ public class PlanetExplorer {
 	public void facing() {
 		facing = "North";
 		
+		if (facing == "North" && )
 		
 	}
 	
