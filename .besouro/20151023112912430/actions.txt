@@ -181,3 +181,4 @@ UnitTestCaseAction 1445595121069 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445595121069 TestPlanetExplorer OK
 RefactoringAction 1445595276588 PlanetExplorer.java ADD Object getX() METHOD
 EditAction 1445595301832 PlanetExplorer.java 2007 4 6 0
+EditAction 1445595301924 TestPlanetExplorer.java 1511 5 16 6
