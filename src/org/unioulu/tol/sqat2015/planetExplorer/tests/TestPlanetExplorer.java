@@ -8,15 +8,6 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 
-	@Test
-	public void testStartFacingisNorth() {
-		//arrange
-		PlanetExplorer planetExplorer = new PlanetExplorer(0,0, "North");
-		//act
-		planetExplorer.facing(); 
-		//assert
-		assertEquals("North", planetExplorer.getFacing());
-	}
 	
 	@Test
 	public void testIfFacingNorthCommandRightChangeItWest(){
@@ -24,7 +15,7 @@ public class TestPlanetExplorer {
 		String command = "l";
 		String facing = "North";
 		
-		planetExplorer.facing();
+		planetExplorer.facing("l", "North");
 
 		
 		assertEquals("West",planetExplorer.getFacing());

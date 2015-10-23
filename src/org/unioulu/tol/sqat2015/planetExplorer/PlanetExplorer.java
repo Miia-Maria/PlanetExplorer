@@ -22,6 +22,13 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
+		facing = "North";
+		
+		if (facing == "North" && command == "l"){
+			facing = "West";
+			
+		}
+		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -32,17 +39,10 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		return facing;
 	}
 	
 	
-	public void facing(String facing, String command) {
-		
-			if (facing == "North" && command == "l"){
-				facing = "West";
-			}
-		
-	}
 	
 	public Object getFacing() {
 		return this.facing;

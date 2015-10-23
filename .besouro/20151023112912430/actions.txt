@@ -102,3 +102,7 @@ RefactoringAction 1445593194883 TestPlanetExplorer.java REMOVE testStartFacingis
 RefactoringAction 1445593383295 PlanetExplorer.java RENAME facing()=>void facing(String) METHOD
 RefactoringAction 1445593423877 PlanetExplorer.java RENAME facing(String)=>void facing(String, String) METHOD
 EditAction 1445593432907 PlanetExplorer.java 1603 4 3 0
+UnitTestCaseAction 1445593433231 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445593433232 TestPlanetExplorer FAIL
+RefactoringAction 1445593482904 PlanetExplorer.java REMOVE facing(String, String) METHOD
+EditAction 1445593629721 PlanetExplorer.java 1570 3 4 0
