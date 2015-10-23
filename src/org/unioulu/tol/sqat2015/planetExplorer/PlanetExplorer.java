@@ -38,9 +38,6 @@ public class PlanetExplorer {
 	
 	public void facing() {
 		
-		if (facing == "North"){
-			facing = "North";
-		}
 			if (facing == "North" && command == "l"){
 				facing = "West";
 			}
