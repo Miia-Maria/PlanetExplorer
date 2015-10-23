@@ -131,3 +131,11 @@ RefactoringAction 1445593809692 TestPlanetExplorer.java RENAME testIfFacingNorth
 RefactoringAction 1445593814209 TestPlanetExplorer.java RENAME testIfFacingNorthCommandChangeItWest()=>void testIfFacingNorthCommandBacwardChangeItWest() METHOD
 EditAction 1445593913230 PlanetExplorer.java 1803 3 4 0
 EditAction 1445593913319 TestPlanetExplorer.java 1220 4 12 4
+UnitTestCaseAction 1445593913626 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593913627 TestPlanetExplorer OK
+RefactoringAction 1445593964348 TestPlanetExplorer.java ADD void testIfFacingNorthCommandLeftChangeItWest()/2 METHOD
+RefactoringAction 1445593979894 TestPlanetExplorer.java RENAME testIfFacingNorthCommandLeftChangeItWest()/2=>void testIfFacingCommandLeftChangeItWest() METHOD
+RefactoringAction 1445593981409 TestPlanetExplorer.java RENAME testIfFacingCommandLeftChangeItWest()=>void testIfFacingWestCommandLeftChangeItWest() METHOD
+RefactoringAction 1445593988927 TestPlanetExplorer.java RENAME testIfFacingWestCommandLeftChangeItWest()=>void testIfFacingWestCommandLeftChangeItSou() METHOD
+RefactoringAction 1445593989943 TestPlanetExplorer.java RENAME testIfFacingWestCommandLeftChangeItSou()=>void testIfFacingWestCommandLeftChangeItSouth() METHOD
+EditAction 1445593998896 PlanetExplorer.java 1879 3 4 0
