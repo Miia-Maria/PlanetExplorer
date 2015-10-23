@@ -7,10 +7,6 @@ import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
-	
-	@Test
-	
-	public void testTheCommandSeemsRight(){
 		
 	
 	
@@ -44,7 +40,7 @@ public class TestPlanetExplorer {
 
 		
 		assertEquals("North",planetExplorer.getFacing());
-		assertEquals(1,planetExplorer.getX());
+		assertEquals(1,planetExplorer.getPos_X());
 		
 	}
 	
@@ -56,7 +52,7 @@ public class TestPlanetExplorer {
 
 		
 		assertEquals("North",planetExplorer.getFacing());
-		assertEquals(-1,planetExplorer.getX());
+		assertEquals(-1,planetExplorer.getPos_X());
 		
 	}
 	

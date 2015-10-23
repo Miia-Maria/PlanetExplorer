@@ -242,3 +242,19 @@ RefactoringAction 1445596443598 TestPlanetExplorer.java ADD void testTheCommandS
 RefactoringAction 1445596443599 TestPlanetExplorer.java ADD void testIfFacingNorthCommandForwardReminesNorthAndXChanges() METHOD
 RefactoringAction 1445596443599 TestPlanetExplorer.java ADD void testIfFacingNorthCommandBacwardReminesNorthAndXChanges() METHOD
 EditAction 1445596460630 TestPlanetExplorer.java 1396 5 14 6
+CompilationAction 1445596460749 TestPlanetExplorer.java
+CompilationAction 1445596460749 TestPlanetExplorer.java
+UnitTestCaseAction 1445596462069 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445596462070 TestPlanetExplorer FAIL
+RefactoringAction 1445596470156 TestPlanetExplorer.java REMOVE testTheCommandSeemsRight() METHOD
+CompilationAction 1445596472960 TestPlanetExplorer.java
+CompilationAction 1445596472960 TestPlanetExplorer.java
+CompilationAction 1445596472977 TestPlanetExplorer.java
+UnitTestCaseAction 1445596474288 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445596474288 TestPlanetExplorer FAIL
+CompilationAction 1445596489239 TestPlanetExplorer.java
+UnitTestCaseAction 1445596489450 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596489451 TestPlanetExplorer OK
+UnitTestCaseAction 1445596506268 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596506268 TestPlanetExplorer OK
+EditAction 1445596547823 PlanetExplorer.java 1986 4 5 0
