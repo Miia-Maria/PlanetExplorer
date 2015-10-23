@@ -7,6 +7,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	
 	String facing;
+	String command;
 	
 
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -33,11 +34,14 @@ public class PlanetExplorer {
 		
 		return null;
 	}
-
+	
+	
 	public void facing() {
 		facing = "North";
 		
-		//if (facing == "North" && )
+		if (facing == "North" && command == "l"){
+			facing = "West";
+		}
 		
 	}
 	
@@ -45,4 +49,5 @@ public class PlanetExplorer {
 		return this.facing;
 		
 	}
+
 }

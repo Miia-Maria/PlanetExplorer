@@ -80,3 +80,11 @@ CompilationAction 1445592630781 PlanetExplorer.java
 UnitTestCaseAction 1445592630995 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445592630996 TestPlanetExplorer FAIL
 EditAction 1445592640446 TestPlanetExplorer.java 678 2 5 2
+UnitTestCaseAction 1445592640755 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592640755 TestPlanetExplorer FAIL
+RefactoringAction 1445592713280 PlanetExplorer.java ADD void command() METHOD
+RefactoringAction 1445592724379 PlanetExplorer.java ADD void command()/2 METHOD
+RefactoringAction 1445592746907 PlanetExplorer.java REMOVE command()/2 METHOD
+RefactoringAction 1445592904058 PlanetExplorer.java REMOVE command() METHOD
+RefactoringAction 1445592940153 PlanetExplorer.java ADD String command FIELD
+EditAction 1445593059025 PlanetExplorer.java 1592 4 4 0
