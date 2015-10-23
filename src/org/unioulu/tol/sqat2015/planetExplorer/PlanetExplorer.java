@@ -41,9 +41,9 @@ public class PlanetExplorer {
 							facing = "South";
 						}
 
-						
 		
-		return "(x, y, facing)";
+		
+		return x + y + facing;
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
