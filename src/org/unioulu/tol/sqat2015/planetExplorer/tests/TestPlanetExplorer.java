@@ -22,6 +22,7 @@ public class TestPlanetExplorer {
 	public void testIfFacingNorthCommandRightChangeItWest(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0,"North");
 		String command = "l";
+		String facing = "North";
 		
 		planetExplorer.facing();
 
