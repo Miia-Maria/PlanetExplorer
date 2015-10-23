@@ -173,3 +173,7 @@ UnitTestSessionAction 1445594769745 TestPlanetExplorer OK
 RefactoringAction 1445594986589 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1445594986589 PlanetExplorer.java ADD int y FIELD
 EditAction 1445595066866 PlanetExplorer.java 1948 3 1 0
+CompilationAction 1445595067008 PlanetExplorer.java
+UnitTestCaseAction 1445595068417 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595068418 TestPlanetExplorer FAIL
+EditAction 1445595120772 PlanetExplorer.java 1950 3 5 0
