@@ -150,3 +150,13 @@ CompilationAction 1445594117772 PlanetExplorer.java
 UnitTestCaseAction 1445594117987 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445594117987 TestPlanetExplorer FAIL
 EditAction 1445594425801 PlanetExplorer.java 1969 3 4 0
+CompilationAction 1445594425905 PlanetExplorer.java
+UnitTestCaseAction 1445594428158 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594428159 TestPlanetExplorer FAIL
+RefactoringAction 1445594584885 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445594587916 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445594587916 PlanetExplorer.java ADD int String FIELD
+RefactoringAction 1445594604947 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1445594604948 PlanetExplorer.java REMOVE y FIELD
+RefactoringAction 1445594604949 PlanetExplorer.java REMOVE String FIELD
+EditAction 1445594636431 PlanetExplorer.java 1893 3 5 0
