@@ -41,6 +41,7 @@ public class PlanetExplorer {
 							facing = "South";
 						}
 
+						
 		
 		return "(x, y, facing)";
 		
@@ -62,6 +63,10 @@ public class PlanetExplorer {
 	public Object getFacing() {
 		return this.facing;
 		
+	}
+
+	public Object getX() {
+		return this.x;
 	}
 
 }

@@ -177,3 +177,7 @@ CompilationAction 1445595067008 PlanetExplorer.java
 UnitTestCaseAction 1445595068417 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445595068418 TestPlanetExplorer FAIL
 EditAction 1445595120772 PlanetExplorer.java 1950 3 5 0
+UnitTestCaseAction 1445595121069 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595121069 TestPlanetExplorer OK
+RefactoringAction 1445595276588 PlanetExplorer.java ADD Object getX() METHOD
+EditAction 1445595301832 PlanetExplorer.java 2007 4 6 0
