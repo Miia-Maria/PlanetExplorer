@@ -236,3 +236,9 @@ EditAction 1445596328870 TestPlanetExplorer.java 1330 4 12 4
 UnitTestCaseAction 1445596329176 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445596329176 TestPlanetExplorer FAIL
 EditAction 1445596360438 TestPlanetExplorer.java 1329 4 12 4
+UnitTestCaseAction 1445596360735 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445596360736 TestPlanetExplorer FAIL
+RefactoringAction 1445596443598 TestPlanetExplorer.java ADD void testTheCommandSeemsRight() METHOD
+RefactoringAction 1445596443599 TestPlanetExplorer.java ADD void testIfFacingNorthCommandForwardReminesNorthAndXChanges() METHOD
+RefactoringAction 1445596443599 TestPlanetExplorer.java ADD void testIfFacingNorthCommandBacwardReminesNorthAndXChanges() METHOD
+EditAction 1445596460630 TestPlanetExplorer.java 1396 5 14 6

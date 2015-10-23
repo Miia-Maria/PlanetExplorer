@@ -7,7 +7,12 @@ import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
+	
+	@Test
+	
+	public void testTheCommandSeemsRight(){
 		
+	
 	
 	@Test
 	public void testIfFacingNorthCommandLeftChangeItWest(){
@@ -16,7 +21,7 @@ public class TestPlanetExplorer {
 		planetExplorer.executeCommand("l");
 
 		
-		assertEquals("(0, 0), West",planetExplorer.executeCommand(""));
+		assertEquals("West",planetExplorer.getFacing());
 		
 	}
 	
@@ -27,29 +32,31 @@ public class TestPlanetExplorer {
 		planetExplorer.executeCommand("r");
 
 		
-		assertEquals("(0, 0), East",planetExplorer.executeCommand(""));
+		assertEquals("East",planetExplorer.getFacing());
 		
 	}
 	
 	@Test
-	public void testIfFacingNorthCommandForwardReminesNorthAndXPositionChanges(){
+	public void testIfFacingNorthCommandForwardReminesNorthAndXChanges(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0,"North");
 		
 		planetExplorer.executeCommand("f");
 
 		
-		assertEquals("(1, 0), North",planetExplorer.executeCommand(""));
+		assertEquals("North",planetExplorer.getFacing());
+		assertEquals(1,planetExplorer.getX());
 		
 	}
 	
 	@Test
-	public void testIfFacingNorthCommandBacwardReminesNorthAndXPositionChanges(){
+	public void testIfFacingNorthCommandBacwardReminesNorthAndXChanges(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0,"North");
 		
 		planetExplorer.executeCommand("b");
 
 		
-		assertEquals("(-1, 0), North",planetExplorer.executeCommand(""));
+		assertEquals("North",planetExplorer.getFacing());
+		assertEquals(-1,planetExplorer.getX());
 		
 	}
 	
