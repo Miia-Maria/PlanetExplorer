@@ -96,3 +96,9 @@ UnitTestCaseAction 1445593130297 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445593130298 TestPlanetExplorer FAIL
 EditAction 1445593172793 PlanetExplorer.java 1574 4 3 0
 EditAction 1445593172914 TestPlanetExplorer.java 755 2 8 2
+UnitTestCaseAction 1445593173243 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445593173244 TestPlanetExplorer FAIL
+RefactoringAction 1445593194883 TestPlanetExplorer.java REMOVE testStartFacingisNorth() METHOD
+RefactoringAction 1445593383295 PlanetExplorer.java RENAME facing()=>void facing(String) METHOD
+RefactoringAction 1445593423877 PlanetExplorer.java RENAME facing(String)=>void facing(String, String) METHOD
+EditAction 1445593432907 PlanetExplorer.java 1603 4 3 0
