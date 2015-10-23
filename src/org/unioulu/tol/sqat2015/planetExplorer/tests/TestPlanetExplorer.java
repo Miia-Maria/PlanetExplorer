@@ -20,7 +20,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testIfFacingNorthCommandRightChangeItWest(){
+	public void testIfFacingNorthCommandRightChangeItEast(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0,"North");
 		
 		planetExplorer.executeCommand("r");
@@ -31,7 +31,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testIfFacingNorthCommandForwardChangeItWest(){
+	public void testIfFacingNorthCommandForwardReminesNorthAndXChanges(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0,"North");
 		
 		planetExplorer.executeCommand("f");
@@ -43,7 +43,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testIfFacingNorthCommandBacwardChangeItWest(){
+	public void testIfFacingNorthCommandBacwardReminesNorthAndXChanges(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0,"North");
 		
 		planetExplorer.executeCommand("b");

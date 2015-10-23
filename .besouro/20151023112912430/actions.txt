@@ -210,3 +210,4 @@ RefactoringAction 1445595602900 TestPlanetExplorer.java RENAME testIfFacingNorth
 RefactoringAction 1445595604915 TestPlanetExplorer.java RENAME testIfFacingNorthCommandBacwardReminesNorthAndX()=>void testIfFacingNorthCommandBacwardReminesNorthAndXchanges() METHOD
 RefactoringAction 1445595607430 TestPlanetExplorer.java RENAME testIfFacingNorthCommandBacwardReminesNorthAndXchanges()=>void testIfFacingNorthCommandBacwardReminesNorthAndXChanges() METHOD
 EditAction 1445595670196 PlanetExplorer.java 2027 4 6 0
+EditAction 1445595670302 TestPlanetExplorer.java 1333 4 14 6
