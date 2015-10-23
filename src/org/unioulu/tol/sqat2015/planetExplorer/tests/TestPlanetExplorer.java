@@ -15,6 +15,6 @@ public class TestPlanetExplorer {
 		//act
 		planetExplorer.position(0,0, ""); 
 		//assert
-		assertEquals(planetExplorer, planetExplorer.getFacing());
+		assertEquals("North", planetExplorer.getFacing());
 	}
 }
