@@ -192,3 +192,4 @@ UnitTestCaseAction 1445595363119 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445595363120 TestPlanetExplorer OK
 RefactoringAction 1445595378699 TestPlanetExplorer.java REMOVE testIfFacingWestCommandLeftChangeItSouth() METHOD
 EditAction 1445595494553 PlanetExplorer.java 2001 4 6 0
+EditAction 1445595494640 TestPlanetExplorer.java 1311 4 14 6
