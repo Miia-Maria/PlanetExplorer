@@ -50,6 +50,7 @@ public class TestPlanetExplorer {
 
 		
 		assertEquals("North",planetExplorer.getFacing());
+		assertEquals(-1,planetExplorer.getX());
 		
 	}
 	
