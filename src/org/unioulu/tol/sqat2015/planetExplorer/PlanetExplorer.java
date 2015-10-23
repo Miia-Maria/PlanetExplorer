@@ -34,7 +34,7 @@ public class PlanetExplorer {
 		return null;
 	}
 
-	public void position(int x, int y, String facing) {
+	public void facing() {
 		facing = "North";
 		
 		
