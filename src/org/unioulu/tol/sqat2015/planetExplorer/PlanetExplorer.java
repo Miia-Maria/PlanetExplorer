@@ -39,7 +39,7 @@ public class PlanetExplorer {
 						pos_x--;
 						} 
 		
-		return "(" + pos_x + ", " + pos_y + ", " + facing + ")";
+		return "(" + pos_x + ", " + pos_y + ")" + ", " + facing;
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
