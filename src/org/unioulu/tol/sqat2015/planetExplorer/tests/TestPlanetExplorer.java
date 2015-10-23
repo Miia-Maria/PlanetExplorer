@@ -13,7 +13,7 @@ public class TestPlanetExplorer {
 		//arrange
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0, "North");
 		//act
- 
+		planetExplorer.facing(); 
 		//assert
 		assertEquals("North", planetExplorer.getFacing());
 	}
@@ -21,9 +21,10 @@ public class TestPlanetExplorer {
 	@Test
 	public void testIfFacingNorthCommandRightChangeItWest(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(0,0,"North");
+		String command = "l";
 		
 		planetExplorer.facing();
-		
+
 		
 		assertEquals("West",planetExplorer.getFacing());
 		

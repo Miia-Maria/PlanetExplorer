@@ -88,3 +88,4 @@ RefactoringAction 1445592746907 PlanetExplorer.java REMOVE command()/2 METHOD
 RefactoringAction 1445592904058 PlanetExplorer.java REMOVE command() METHOD
 RefactoringAction 1445592940153 PlanetExplorer.java ADD String command FIELD
 EditAction 1445593059025 PlanetExplorer.java 1592 4 4 0
+EditAction 1445593059115 TestPlanetExplorer.java 727 2 7 2
