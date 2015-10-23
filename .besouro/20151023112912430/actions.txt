@@ -139,3 +139,4 @@ RefactoringAction 1445593981409 TestPlanetExplorer.java RENAME testIfFacingComma
 RefactoringAction 1445593988927 TestPlanetExplorer.java RENAME testIfFacingWestCommandLeftChangeItWest()=>void testIfFacingWestCommandLeftChangeItSou() METHOD
 RefactoringAction 1445593989943 TestPlanetExplorer.java RENAME testIfFacingWestCommandLeftChangeItSou()=>void testIfFacingWestCommandLeftChangeItSouth() METHOD
 EditAction 1445593998896 PlanetExplorer.java 1879 3 4 0
+EditAction 1445593999003 TestPlanetExplorer.java 1466 5 15 5
