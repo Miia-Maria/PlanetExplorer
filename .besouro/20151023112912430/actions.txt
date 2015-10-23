@@ -115,3 +115,4 @@ RefactoringAction 1445593676480 TestPlanetExplorer.java RENAME testIfFacingNorth
 RefactoringAction 1445593677992 TestPlanetExplorer.java RENAME testIfFacingNorthCommandChangeItWest()=>void testIfFacingNorthCommandLeftChangeItWest()/2 METHOD
 RefactoringAction 1445593683505 TestPlanetExplorer.java RENAME testIfFacingNorthCommandLeftChangeItWest()/2=>void testIfFacingNorthCommandRightChangeItWest() METHOD
 EditAction 1445593741268 PlanetExplorer.java 1638 3 1 0
+EditAction 1445593741359 TestPlanetExplorer.java 720 2 6 2
