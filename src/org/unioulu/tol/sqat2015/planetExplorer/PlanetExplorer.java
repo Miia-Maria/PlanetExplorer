@@ -27,7 +27,8 @@ public class PlanetExplorer {
 		if (facing == "North" && command == "l"){
 			facing = "West";
 			
-		}
+		} else if(facing == "North" && command == "r"){
+				facing = "East";
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 

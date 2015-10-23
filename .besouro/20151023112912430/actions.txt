@@ -106,3 +106,12 @@ UnitTestCaseAction 1445593433231 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445593433232 TestPlanetExplorer FAIL
 RefactoringAction 1445593482904 PlanetExplorer.java REMOVE facing(String, String) METHOD
 EditAction 1445593629721 PlanetExplorer.java 1570 3 4 0
+UnitTestCaseAction 1445593630024 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593630024 TestPlanetExplorer OK
+RefactoringAction 1445593659943 TestPlanetExplorer.java ADD void testIfFacingNorthCommandRightChangeItWest()/2 METHOD
+RefactoringAction 1445593665456 TestPlanetExplorer.java RENAME testIfFacingNorthCommandRightChangeItWest()/2=>void testIfFacingNorthCommandChangeItWest() METHOD
+RefactoringAction 1445593667467 TestPlanetExplorer.java RENAME testIfFacingNorthCommandChangeItWest()=>void testIfFacingNorthCommandLeftChangeItWest() METHOD
+RefactoringAction 1445593676480 TestPlanetExplorer.java RENAME testIfFacingNorthCommandRightChangeItWest()=>void testIfFacingNorthCommandChangeItWest() METHOD
+RefactoringAction 1445593677992 TestPlanetExplorer.java RENAME testIfFacingNorthCommandChangeItWest()=>void testIfFacingNorthCommandLeftChangeItWest()/2 METHOD
+RefactoringAction 1445593683505 TestPlanetExplorer.java RENAME testIfFacingNorthCommandLeftChangeItWest()/2=>void testIfFacingNorthCommandRightChangeItWest() METHOD
+EditAction 1445593741268 PlanetExplorer.java 1638 3 1 0
