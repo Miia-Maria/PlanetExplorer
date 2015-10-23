@@ -25,17 +25,25 @@ public class PlanetExplorer {
 		facing = "North";
 		
 		if (facing == "North" && command == "l"){
-			facing = "West";	
+			facing = "West";
+			return facing;
 		} else if(facing == "North" && command == "r"){
 				facing = "East";
+				return facing;
 				} else if(facing == "North" && command == "f"){
 					facing = "North";
+					return facing;
 					} else if(facing == "North" && command == "b"){
 						facing = "North";
+						return facing;
 						} 
+		
+		
 		
 		if (facing == "West" && command == "l"){
 			facing = "South";
+			return facing;
+		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -47,7 +55,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return facing;
+		
 	}
 	
 	
